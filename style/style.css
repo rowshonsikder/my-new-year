@@ -1,0 +1,110 @@
+/* header style  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background-image: url('../images/banner/banner1.png');
+    position: top left;
+    background-repeat:no-repeat;
+
+}
+
+.head-content{
+    padding-left: 70%;
+    padding-right: 4%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+}
+.banner-title{
+    color:#151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+#banner-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background: #F15B22;
+    flex-shrink: 0;
+}
+
+/* main section style */
+.main{
+    display: flex;
+    
+
+}
+
+.image-backgriund{
+    
+
+}
+
+.main-about-me{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.about-me-title{
+    color:#151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about-me-content{
+    color:#444343;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.about-me-advice{
+    color:#444343;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+  
+ul{
+    list-style: none;
+  }
+
+
+ul li:before {
+    content: '✓';
+  }
+   
+.my-plan-container{
+    display: flex;
+    gap: 10px;
+    padding-left: 500px;
+    padding-bottom: 300px;
+
+}
+
+.my-web-title{
+    color:#151414;
+    text-align: center;
+    gap:100px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.web-dev-description{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+     margin-top: 0px;
+    
+}
